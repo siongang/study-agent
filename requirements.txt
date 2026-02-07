@@ -25,5 +25,8 @@ python-dotenv
 tqdm
 numpy
 
+# --- Testing ---
+pytest
+
 # --- Optional (nice-to-have, still local) ---
 rich        # prettier terminal chat output

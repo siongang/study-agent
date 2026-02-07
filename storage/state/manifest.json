@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "last_scan": "2026-02-07T23:03:54.162339+00:00",
+  "files": [
+    {
+      "file_id": "7c98e30d-a2c8-4ca5-959b-144397f37ac9",
+      "path": "HLTH 204 - Midterm 1 Overview.pdf",
+      "filename": "HLTH 204 - Midterm 1 Overview.pdf",
+      "sha256": "19d231588bda809120be8ca18de82ef64108952345f5d838d0eacfaf47074ef3",
+      "size_bytes": 122807,
+      "modified_time": 1770420502.252066,
+      "doc_type": "unknown",
+      "status": "processed",
+      "derived": [
+        "state/extracted_text/7c98e30d-a2c8-4ca5-959b-144397f37ac9.json"
+      ],
+      "error": null
+    },
+    {
+      "file_id": "b1c4dae3-e4d4-479e-97e4-efe34532b9f0",
+      "path": "HLTH 204 - Syllabus.pdf",
+      "filename": "HLTH 204 - Syllabus.pdf",
+      "sha256": "a9e83b82795380bdf51f58dbfcec72f40baf97baf4e483adc0c734b8df509069",
+      "size_bytes": 135463,
+      "modified_time": 1770420784.4966831,
+      "doc_type": "unknown",
+      "status": "processed",
+      "derived": [
+        "state/extracted_text/b1c4dae3-e4d4-479e-97e4-efe34532b9f0.json"
+      ],
+      "error": null
+    },
+    {
+      "file_id": "803570a2-592f-4cda-9aab-60e05f861faa",
+      "path": "Marc M. Triola, Mario F. Triola, Jason Roy - Biostatistics for the Biological and Health Sciences (2nd Edition) (2017, Pearson).pdf",
+      "filename": "Marc M. Triola, Mario F. Triola, Jason Roy - Biostatistics for the Biological and Health Sciences (2nd Edition) (2017, Pearson).pdf",
+      "sha256": "5e2116fba83913866b7dc450dc8e137a6a0f1634a03b95131c7d15761b6a458d",
+      "size_bytes": 36237299,
+      "modified_time": 1770420480.6111603,
+      "doc_type": "unknown",
+      "status": "processed",
+      "derived": [
+        "state/extracted_text/803570a2-592f-4cda-9aab-60e05f861faa.json"
+      ],
+      "error": null
+    }
+  ]
+}
