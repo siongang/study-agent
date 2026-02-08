@@ -12,7 +12,8 @@
       "doc_type": "exam_overview",
       "status": "processed",
       "derived": [
-        "state/extracted_text/7c98e30d-a2c8-4ca5-959b-144397f37ac9.json"
+        "state/extracted_text/7c98e30d-a2c8-4ca5-959b-144397f37ac9.json",
+        "state/coverage/7c98e30d-a2c8-4ca5-959b-144397f37ac9.json"
       ],
       "error": null,
       "doc_confidence": 1.0,
