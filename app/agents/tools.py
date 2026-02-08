@@ -6,6 +6,7 @@ Tools are organized by agent ownership but all can be used by root_agent.
 from pathlib import Path
 from datetime import date, timedelta
 import json
+import os
 import logging
 from typing import Literal, Optional
 
@@ -1142,9 +1143,11 @@ def export_plan(
 # TUTOR AGENT TOOLS
 # ============================================================================
 
-# Simple per-process rate limit for tutor search attempts.
-_TUTOR_SEARCH_ATTEMPTS = 0
-_TUTOR_SEARCH_MAX_ATTEMPTS = 10
+# Simple per-process retry guard for tutor search attempts.
+# Resets when the query changes.
+_TUTOR_LAST_QUERY: Optional[str] = None
+_TUTOR_QUERY_ATTEMPTS: int = 0
+_TUTOR_SEARCH_MAX_ATTEMPTS: int = int(os.getenv("TUTOR_SEARCH_MAX_ATTEMPTS", "2"))
 
 def search_textbook(
     query: str,
@@ -1178,16 +1181,23 @@ def search_textbook(
         - message: summary message
     """
     try:
-        global _TUTOR_SEARCH_ATTEMPTS
-        if _TUTOR_SEARCH_ATTEMPTS >= _TUTOR_SEARCH_MAX_ATTEMPTS:
+        # Guard against infinite retries on the same question.
+        global _TUTOR_LAST_QUERY, _TUTOR_QUERY_ATTEMPTS
+        normalized_query = " ".join(query.lower().split())
+        if _TUTOR_LAST_QUERY == normalized_query:
+            _TUTOR_QUERY_ATTEMPTS += 1
+        else:
+            _TUTOR_LAST_QUERY = normalized_query
+            _TUTOR_QUERY_ATTEMPTS = 1
+
+        if _TUTOR_QUERY_ATTEMPTS > _TUTOR_SEARCH_MAX_ATTEMPTS:
             return {
                 "status": "error",
                 "message": (
-                    "Tutor search rate limit exceeded (10 attempts). "
-                    "Please try again later."
+                    "Search retry limit reached for this question "
+                    f"(max {_TUTOR_SEARCH_MAX_ATTEMPTS})."
                 )
             }
-        _TUTOR_SEARCH_ATTEMPTS += 1
 
         # Load index
         index_path = STATE_DIR / "index" / "faiss.index"
