@@ -73,8 +73,8 @@ def extract_all_exam_overviews(
         )
         
         if coverage is not None:
-            # Save coverage JSON
-            output_path = coverage_dir / f"{coverage.exam_id}.json"
+            # Save coverage JSON using file_id to avoid collisions
+            output_path = coverage_dir / f"{file_entry.file_id}.json"
             output_path.write_text(coverage.model_dump_json(indent=2))
             
             # Update manifest entry

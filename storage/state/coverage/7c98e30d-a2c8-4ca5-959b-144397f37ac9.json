@@ -1,0 +1,94 @@
+{
+  "exam_id": "midterm_1",
+  "exam_name": "Midterm Examination 1",
+  "exam_date": "February 27, 2026",
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "topics": [
+    {
+      "chapter": 1,
+      "chapter_title": "Introduction to Statistics",
+      "bullets": [
+        "Define Data, Statistics (as a field), Population, Sample, and Census.",
+        "Understand the key steps in a statistical study: Preparation (Context, Source, Sampling Method), Analysis, and Conclusion.",
+        "Distinguish between Statistical Significance (a result unlikely to occur by chance) and Practical Significance (a result large enough to matter in the real world).",
+        "Differentiate between a Parameter (a property of the population) and a Statistic (a property of the sample).",
+        "Identify Quantitative (numerical) data versus Categorical (non-numerical labels or attributes) data.",
+        "Distinguish between Discrete data (countable, finite or infinitely countable values) and Continuous data (measurable, infinitely many values over a range).",
+        "Identify the four Levels of Measurement: Nominal, Ordinal, Interval, and Ratio.",
+        "Define and identify a Voluntary Response Sample and understand why conclusions based on it are generally not valid.",
+        "Identify appropriate sampling techniques: Simple Random Sample, Systematic Sampling, Convenience Sampling, Stratified Sampling, and Cluster Sampling.",
+        "Differentiate between an Experiment (treatment applied) and an Observational Study (characteristics measured without modification).",
+        "Understand the importance of good experimental design, including Replication, Blinding, and Randomization."
+      ]
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "Exploring Data with Tables and Graphs",
+      "bullets": [
+        "Construct and interpret Frequency Tables, Relative Frequency Distributions (percentages or proportions), and Cumulative Frequency Distributions.",
+        "Identify table components: Class Limits (lower and upper), Class Boundaries, Class Midpoints, and Class Width.",
+        "Construct and interpret Histograms and Relative Frequency Histograms.",
+        "Identify characteristics of a distribution: Center, Variation (spread), Distribution Shape, Outliers, and changes over Time (CVDOT).",
+        "Identify common shapes: Normal (bell-shaped), Uniform (flat), Skewed Left (long left tail), and Skewed Right (long right tail).",
+        "Interpret Dotplots, Stemplots, Time-Series Graphs (for trends), Bar Graphs, Pareto Charts (categorical data sorted by frequency), and Pie Charts.",
+        "Recognize deceptive graphs (e.g., using a non-zero vertical axis, or pictographs that distort visual ratios).",
+        "Interpret Scatterplots to visually determine the presence and direction (positive/negative) of a linear correlation."
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "Describing, Exploring, and Comparing Data",
+      "bullets": [
+        "Calculate and interpret the Mean (arithmetic average), Median (middle value in a sorted set), Mode (most frequent value), and Midrange.",
+        "Understand which measures are Resistant (not affected by outliers, like the Median).",
+        "Calculate and interpret the Range (Max minus Min), Variance, and Standard Deviation.",
+        "Apply the Range Rule of Thumb to interpret standard deviation and determine if a data value is significantly low or significantly high (typically values more than two standard deviations from the mean).",
+        "Use the Coefficient of Variation (CV) to compare the spread of data sets, especially when their means or measurement units are different.",
+        "Calculate and interpret the z-Score (Standard Score), defining it as the number of standard deviations a value is above or below the mean.",
+        "Use the criterion that values are significantly extreme if their z-scores are less than negative two or greater than positive two.",
+        "Define and find Percentiles.",
+        "Define the Quartiles (first quartile, second quartile/median, and third quartile).",
+        "Define the 5-Number Summary (Minimum, Quartile 1, Median, Quartile 3, Maximum) and interpret Boxplots (or Box-and-Whisker Diagrams)."
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "Probability",
+      "bullets": [
+        "Understand the three ways to determine the probability of an event: Relative Frequency (based on observation), Classical (based on equally likely outcomes), and Subjective (based on knowledge/experience).",
+        "Define the Complement of an event (the event does not occur).",
+        "Understand the Rare Event Rule for making statistical inferences.",
+        "Apply the Addition Rule to find the probability of Event A or Event B (distinguishing between Disjoint and non-Disjoint events).",
+        "Apply the Multiplication Rule to find the probability of Event A and Event B (distinguishing between Independent and Dependent events).",
+        "Apply the 5% Guideline when sampling without replacement from a large population.",
+        "Calculate Conditional Probability and identify the Confusion of the Inverse.",
+        "Calculate and interpret Absolute Risk Reduction, Relative Risk (Risk Ratio), Odds Ratio, and Number Needed to Treat (NNT).",
+        "Understand and interpret various Rates (e.g., Mortality Rate, Incidence Rate).",
+        "Apply Counting Techniques: Multiplication Rule, Factorial Rule, Permutations (when order matters), and Combinations (when order does not matter)."
+      ]
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "Discrete Probability Distributions",
+      "bullets": [
+        "Define a Random Variable and a Probability Distribution.",
+        "Verify the requirements for a valid probability distribution.",
+        "Calculate the Mean and Standard Deviation for a discrete probability distribution.",
+        "Identify Expected Value.",
+        "Identify procedures that satisfy the four requirements for a Binomial Distribution.",
+        "Calculate binomial probabilities using formulas or technology.",
+        "Determine the mean and standard deviation for a binomial distribution.",
+        "Recognize situations where a Poisson distribution applies (occurrences over a specified interval).",
+        "Know the criteria for using the Poisson distribution to approximate binomial probabilities."
+      ]
+    }
+  ],
+  "source_file_id": "7c98e30d-a2c8-4ca5-959b-144397f37ac9",
+  "generated_at": "2026-02-08T00:55:15.537035+00:00"
+}

@@ -3,7 +3,8 @@ import json
 import os
 from typing import Optional
 
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
 
 def classify_document(
@@ -31,7 +32,7 @@ def classify_document(
         # Fallback to heuristic classification if no API key
         return _fallback_classify(first_page, filename)
     
-    genai.configure(api_key=api_key)
+    client = genai.Client(api_key=api_key)
     
     # Prepare context for classification
     context = f"""Filename: {filename}
@@ -67,15 +68,14 @@ Respond in JSON format:
 }}"""
     
     try:
-        model = genai.GenerativeModel(
-            model_name="gemini-2.5-flash",  # Latest, fastest, cheapest model
-            generation_config={
-                "temperature": 0.1,  # Low temperature for consistent classification
-                "response_mime_type": "application/json"
-            }
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",  # Latest, fastest, cheapest model
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.1,  # Low temperature for consistent classification
+                response_mime_type="application/json"
+            )
         )
-        
-        response = model.generate_content(prompt)
         result = json.loads(response.text)
         
         # Validate response

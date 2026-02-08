@@ -4,7 +4,8 @@ import os
 from datetime import datetime, timezone
 from typing import Optional
 
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from pydantic import ValidationError
 
 from app.models.coverage import ExamCoverage
@@ -21,7 +22,7 @@ def extract_coverage(
     if not api_key:
         return None, "GOOGLE_API_KEY not found"
     
-    genai.configure(api_key=api_key)
+    client = genai.Client(api_key=api_key)
     
     text_to_analyze = full_text[:max_chars]
     if len(full_text) > max_chars:
@@ -44,12 +45,14 @@ Document:
 {text_to_analyze}"""
     
     try:
-        model = genai.GenerativeModel(
-            model_name="gemini-2.5-flash",
-            generation_config={"temperature": 0.1, "response_mime_type": "application/json"}
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.1,
+                response_mime_type="application/json"
+            )
         )
-        
-        response = model.generate_content(prompt)
         data = json.loads(response.text)
         data["source_file_id"] = file_id
         data["generated_at"] = datetime.now(timezone.utc).isoformat()

@@ -1,0 +1,91 @@
+{
+  "exam_id": "midterm_1",
+  "exam_name": "Midterm Examination 1",
+  "exam_date": "February 26, 2026",
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "topics": [
+    {
+      "chapter": 1,
+      "chapter_title": "Stern-Gerlach Experiments & Quantum State Vectors",
+      "bullets": [
+        "Classical vs. Quantum Results: Understanding the outcome of Stern-Gerlach experiments (quantization of spin).",
+        "Observables and Constraints: Spin up and spin down values, spin-1/2 systems.",
+        "Quantum States (Kets and Bras): Definition, notation, and physical meaning of the state vector.",
+        "Basis Sets: Orthonormality (normalization and orthogonality) and completeness.",
+        "Probability Postulate: Calculating the probability of measurement outcomes from amplitudes.",
+        "Superposition States: Understanding coherent superposition versus mixed states."
+      ]
+    },
+    {
+      "chapter": 2,
+      "chapter_title": "Operators and Measurement",
+      "bullets": [
+        "Operators: Definition and representation of physical observables.",
+        "Eigenvalues and Eigenvectors: Definition and the characteristic equation.",
+        "Matrix Representation: Representing kets (column vectors) and operators (matrices) in a chosen basis",
+        "Diagonalization: Finding eigenvalues and eigenvectors of a matrix.",
+        "New Operators: Spin component in a general direction.",
+        "Hermitian Operators: Properties and significance for observables.",
+        "Measurement and Projection: The Projection Postulate (state collapse/reduction).",
+        "Commuting Observables: Simultaneous measurement and common eigenstates.",
+        "Expectation Value: Calculation of the average outcome and the uncertainty.",
+        "Uncertainty Principle: Application to spin components."
+      ]
+    },
+    {
+      "chapter": 3,
+      "chapter_title": "Schrödinger Time Evolution",
+      "bullets": [
+        "Schrödinger Equation: The fundamental differential equation governing time evolution.",
+        "Hamiltonian (Energy Operator): Definition and its role in dynamics.",
+        "Energy Eigenstates: Definition of stationary states (states whose measurable properties do not change over time).",
+        "Time Evolution Recipe: Calculating the time-evolved state vector for time-independent Hamiltonians.",
+        "Spin Precession: Application of the recipe to a spin-1/2 particle in a uniform magnetic field (Larmor precession, Rabi oscillations)."
+      ]
+    },
+    {
+      "chapter": 4,
+      "chapter_title": "Quantum Spookiness",
+      "bullets": [
+        "The EPR Paradox: Concepts of locality and elements of reality (hidden variables).",
+        "Entanglement: Description of entangled states and their non-local correlations.",
+        "Schrödinger’s Cat Paradox: Conceptual discussion of macroscopic superposition and wave function collapse (decoherence)."
+      ]
+    },
+    {
+      "chapter": 5,
+      "chapter_title": "Quantized Energies: Particle in a Box",
+      "bullets": [
+        "The Wave Function: Position representation, understanding the wave function as a probability amplitude.",
+        "Probability Density: Calculating the spatial probability distribution.",
+        "Normalization: Integrating probability density over all space.",
+        "Translating Formalism: Rules for moving between bra-ket notation and wave function notation (position and momentum operators).",
+        "Energy Eigenvalue Equation: The differential equation form of the energy eigenvalue problem.",
+        "Infinite Square Well: Solving the 1D model (allowed energy values, quantization, wave functions, and nodes).",
+        "Finite Square Well: Key differences from the infinite well (exponential decay outside the well, barrier penetration).",
+        "Wave Function Curvature and Energy: Qualitative relation between the total energy, the potential energy, and the curvature of the wave function."
+      ]
+    },
+    {
+      "chapter": 6,
+      "chapter_title": "Unbound States",
+      "bullets": [
+        "Free Particle Eigenstates: Allowed energy and momentum values for a particle with zero potential energy.",
+        "Momentum Eigenstates: Relationship to the de Broglie wavelength; wave nature.",
+        "Momentum Space Wave Function: Fourier transform relationship with the position space wave function.",
+        "Wave Packets: Localized superposition of momentum states, understanding particle-wave duality.",
+        "Group and Phase Velocity: Distinction and calculation for free particles, agreement of group velocity with classical velocity.",
+        "Heisenberg Uncertainty Principle: The inverse relation between position uncertainty and momentum uncertainty, minimum uncertainty states."
+      ]
+    }
+  ],
+  "source_file_id": "908eb7eb-ef6a-4b21-9ade-c3d8214a1b1f",
+  "generated_at": "2026-02-08T00:55:24.823631+00:00"
+}

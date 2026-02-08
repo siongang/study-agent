@@ -1,0 +1,87 @@
+{
+  "file_id": "17d50151-db40-466e-8791-9f869023eec4",
+  "filename": "John D Sterman - Business Dynamics Systems Thinking and Modeling for a Complex World-McGraw-Hill Higher Education 2000.pdf",
+  "doc_type": "textbook",
+  "extracted_at": "2026-02-07T22:49:08.289512",
+  "toc_source_pages": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    30
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Learning in and about Complex Systems",
+      "page_start": 3,
+      "page_end": 40,
+      "sections": []
+    },
+    {
+      "chapter": 2,
+      "title": "System Dynamics in Action",
+      "page_start": 41,
+      "page_end": 82,
+      "sections": []
+    },
+    {
+      "chapter": 3,
+      "title": "The Modeling Process",
+      "page_start": 83,
+      "page_end": 106,
+      "sections": []
+    },
+    {
+      "chapter": 4,
+      "title": "Structure and Behavior of Dynamic Systems",
+      "page_start": 107,
+      "page_end": 134,
+      "sections": []
+    },
+    {
+      "chapter": 5,
+      "title": "Causal Loop Diagrams",
+      "page_start": 137,
+      "page_end": 190,
+      "sections": []
+    },
+    {
+      "chapter": 6,
+      "title": "Stocks and Flows",
+      "page_start": 191,
+      "page_end": 230,
+      "sections": []
+    },
+    {
+      "chapter": 7,
+      "title": "Dynamics of Stocks and Flows",
+      "page_start": 231,
+      "page_end": 262,
+      "sections": []
+    },
+    {
+      "chapter": 8,
+      "title": "Closing the Loop:",
+      "page_start": 263,
+      "page_end": 292,
+      "sections": []
+    },
+    {
+      "chapter": 9,
+      "title": "S-Shaped Growth: Epidemics, Innovation Diffusion, and the Growth of New Products",
+      "page_start": 295,
+      "page_end": 348,
+      "sections": []
+    }
+  ],
+  "notes": "TOC extracted successfully from pages [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 30]"
+}

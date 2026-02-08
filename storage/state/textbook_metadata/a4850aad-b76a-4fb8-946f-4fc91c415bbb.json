@@ -1,0 +1,181 @@
+{
+  "file_id": "a4850aad-b76a-4fb8-946f-4fc91c415bbb",
+  "filename": "David H McIntyre_ Corinne A Manogue_ Janet Tate_ Oregon State Un - Quantum mechanics _ a paradigms approach (2012, Pearson ).pdf",
+  "doc_type": "textbook",
+  "extracted_at": "2026-02-07T22:49:05.946662",
+  "toc_source_pages": [
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Stern-Gerlach Experiments",
+      "page_start": 1,
+      "page_end": 33,
+      "sections": []
+    },
+    {
+      "chapter": 2,
+      "title": "Operators and Measurement",
+      "page_start": 34,
+      "page_end": 67,
+      "sections": []
+    },
+    {
+      "chapter": 3,
+      "title": "Schrödinger Time Evolution",
+      "page_start": 68,
+      "page_end": 96,
+      "sections": []
+    },
+    {
+      "chapter": 4,
+      "title": "Quantum Spookiness",
+      "page_start": 97,
+      "page_end": 106,
+      "sections": []
+    },
+    {
+      "chapter": 5,
+      "title": "Quantized Energies: Particle in a Box",
+      "page_start": 107,
+      "page_end": 160,
+      "sections": []
+    },
+    {
+      "chapter": 6,
+      "title": "Unbound States",
+      "page_start": 161,
+      "page_end": 201,
+      "sections": []
+    },
+    {
+      "chapter": 7,
+      "title": "Angular Momentum",
+      "page_start": 202,
+      "page_end": 249,
+      "sections": []
+    },
+    {
+      "chapter": 8,
+      "title": "Hydrogen Atom",
+      "page_start": 250,
+      "page_end": 274,
+      "sections": []
+    },
+    {
+      "chapter": 9,
+      "title": "Harmonic Oscillator",
+      "page_start": 275,
+      "page_end": 311,
+      "sections": []
+    },
+    {
+      "chapter": 10,
+      "title": "Perturbation Theory",
+      "page_start": 312,
+      "page_end": 354,
+      "sections": []
+    },
+    {
+      "chapter": 11,
+      "title": "Hyperﬁne Structure and the Addition of Angular Momenta",
+      "page_start": 355,
+      "page_end": 381,
+      "sections": []
+    },
+    {
+      "chapter": 12,
+      "title": "Perturbation of Hydrogen",
+      "page_start": 382,
+      "page_end": 409,
+      "sections": []
+    },
+    {
+      "chapter": 13,
+      "title": "Identical Particles",
+      "page_start": 410,
+      "page_end": 444,
+      "sections": []
+    },
+    {
+      "chapter": 14,
+      "title": "Time-Dependent Perturbation Theory",
+      "page_start": 445,
+      "page_end": 468,
+      "sections": []
+    },
+    {
+      "chapter": 15,
+      "title": "Periodic Systems",
+      "page_start": 469,
+      "page_end": 501,
+      "sections": []
+    },
+    {
+      "chapter": 16,
+      "title": "Modern Applications of Quantum Mechanics",
+      "page_start": 502,
+      "page_end": 528,
+      "sections": []
+    },
+    {
+      "chapter": 993,
+      "title": "Appendix G: Physical Constants",
+      "page_start": 551,
+      "page_end": 552,
+      "sections": []
+    },
+    {
+      "chapter": 994,
+      "title": "Appendix F: Integrals",
+      "page_start": 549,
+      "page_end": 550,
+      "sections": []
+    },
+    {
+      "chapter": 995,
+      "title": "Appendix E: Separation of Variables",
+      "page_start": 547,
+      "page_end": 548,
+      "sections": []
+    },
+    {
+      "chapter": 996,
+      "title": "Appendix D: Waves and Fourier Analysis",
+      "page_start": 541,
+      "page_end": 546,
+      "sections": []
+    },
+    {
+      "chapter": 997,
+      "title": "Appendix C: Matrices",
+      "page_start": 537,
+      "page_end": 540,
+      "sections": []
+    },
+    {
+      "chapter": 998,
+      "title": "Appendix B: Complex Numbers",
+      "page_start": 533,
+      "page_end": 536,
+      "sections": []
+    },
+    {
+      "chapter": 999,
+      "title": "Appendix A: Probability",
+      "page_start": 529,
+      "page_end": 532,
+      "sections": []
+    }
+  ],
+  "notes": "TOC extracted successfully from pages [7, 9, 10, 11, 12, 13, 14, 15, 18]"
+}

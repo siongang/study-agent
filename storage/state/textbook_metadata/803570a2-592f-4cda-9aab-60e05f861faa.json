@@ -1,0 +1,122 @@
+{
+  "file_id": "803570a2-592f-4cda-9aab-60e05f861faa",
+  "filename": "Marc M. Triola, Mario F. Triola, Jason Roy - Biostatistics for the Biological and Health Sciences (2nd Edition) (2017, Pearson).pdf",
+  "doc_type": "textbook",
+  "extracted_at": "2026-02-07T22:49:11.848245",
+  "toc_source_pages": [
+    7,
+    8,
+    11,
+    12,
+    13,
+    20,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28,
+    30
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "INTRODUCTION TO STATISTICS",
+      "page_start": 1,
+      "page_end": 39,
+      "sections": []
+    },
+    {
+      "chapter": 2,
+      "title": "EXPLORING DATA WITH TABLES AND GRAPHS",
+      "page_start": 40,
+      "page_end": 74,
+      "sections": []
+    },
+    {
+      "chapter": 3,
+      "title": "DESCRIBING, EXPLORING, AND COMPARING DATA",
+      "page_start": 75,
+      "page_end": 117,
+      "sections": []
+    },
+    {
+      "chapter": 4,
+      "title": "PROBABILITY",
+      "page_start": 118,
+      "page_end": 179,
+      "sections": []
+    },
+    {
+      "chapter": 5,
+      "title": "DISCRETE PROBABILITY DISTRIBUTIONS",
+      "page_start": 180,
+      "page_end": 215,
+      "sections": []
+    },
+    {
+      "chapter": 6,
+      "title": "NORMAL PROBABILITY DISTRIBUTIONS",
+      "page_start": 216,
+      "page_end": 281,
+      "sections": []
+    },
+    {
+      "chapter": 7,
+      "title": "ESTIMATING PARAMETERS AND DETERMINING SAMPLE SIZES",
+      "page_start": 282,
+      "page_end": 335,
+      "sections": []
+    },
+    {
+      "chapter": 8,
+      "title": "HYPOTHESIS TESTING",
+      "page_start": 336,
+      "page_end": 391,
+      "sections": []
+    },
+    {
+      "chapter": 9,
+      "title": "INFERENCES FROM TWO SAMPLES",
+      "page_start": 392,
+      "page_end": 441,
+      "sections": []
+    },
+    {
+      "chapter": 10,
+      "title": "CORRELATION AND REGRESSION",
+      "page_start": 442,
+      "page_end": 501,
+      "sections": []
+    },
+    {
+      "chapter": 11,
+      "title": "GOODNESS-OF-FIT AND CONTINGENCY TABLES",
+      "page_start": 502,
+      "page_end": 530,
+      "sections": []
+    },
+    {
+      "chapter": 12,
+      "title": "ANALYSIS OF VARIANCE",
+      "page_start": 531,
+      "page_end": 559,
+      "sections": []
+    },
+    {
+      "chapter": 13,
+      "title": "NONPARAMETRIC TESTS",
+      "page_start": 560,
+      "page_end": 602,
+      "sections": []
+    },
+    {
+      "chapter": 14,
+      "title": "SURVIVAL ANALYSIS",
+      "page_start": 603,
+      "page_end": 624,
+      "sections": []
+    }
+  ],
+  "notes": "TOC extracted successfully from pages [7, 8, 11, 12, 13, 20, 22, 23, 24, 25, 26, 28, 30]"
+}
