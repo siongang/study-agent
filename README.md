@@ -19,6 +19,8 @@ An **agentic study planning system** that:
 Built using **multi-agent architecture** with Google's Agent Development Kit (ADK) principles.
 
 ---
+Demo:
+https://drive.google.com/drive/folders/1DSywzuY2KKrLZ1bSwnX1VQOy76ZdJ37t?usp=sharing
 
 ## Quick Start
 
