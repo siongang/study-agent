@@ -91,3 +91,10 @@ Thumbs.db
 *.tmp
 *.bak
 *.orig
+
+
+
+# Big files - ignore generated chunks and embeddings
+storage/state/chunks/
+storage/state/embeddings/
+storage/state/index/
