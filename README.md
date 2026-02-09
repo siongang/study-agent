@@ -1,6 +1,6 @@
-# Agentic Study Planner
+# Agentic Study Assistant
 
-> A local, agentic system for textbook-based study planning with guaranteed topic coverage
+> A local, agentic system for textbook-based study planning and assistance with guaranteed topic coverage
 
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
