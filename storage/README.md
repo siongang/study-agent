@@ -1,6 +1,6 @@
-# Data Directory
+# Storage Directory
 
-Documentation for the `data/` directory structure.
+Documentation for the `storage/` directory structure.
 
 ---
 
@@ -188,7 +188,7 @@ storage/uploads/
 **Example**:
 
 ```
-data/indexes/
+storage/indexes/
 ├── physics/
 │   ├── chroma.sqlite3        # ChromaDB database
 │   ├── index/                # Vector index files
